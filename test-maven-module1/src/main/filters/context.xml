@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+
+	<Resource name="jdbc/HISPOracleDS"
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="ksmc" 
+              password="medicap"
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@100.43.0.10:1521:HISP"
+              validationQuery="SELECT 1 FROM DUAL"
+              maxActive="-1" 
+              maxIdle="-1"/>
+			  
+	<Resource name="jdbc/HISPRestDS" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="ksmc" 
+              password="medicap"
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@100.43.0.10:1521:HISP"
+              validationQuery="SELECT 1 FROM DUAL"
+              maxActive="-1" 
+              maxIdle="-1"/>
+
+	<Resource name="jdbc/Oracle10gDS" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="ksmc" 
+              password="medicap"
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@100.43.0.10:1521:HISP"
+              validationQuery="SELECT 1 FROM DUAL"
+              maxActive="-1" 
+              maxIdle="-1"/> 
+
+</Context>
